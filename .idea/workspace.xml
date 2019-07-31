@@ -1,7 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3fc7cd1-c6e9-418b-b13e-b25f4a0d74e6" name="Default Changelist" comment="" />
+    <list default="true" id="a3fc7cd1-c6e9-418b-b13e-b25f4a0d74e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/movies/src/models/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/src/routes/details/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/src/routes/details/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies" beforeDir="false" afterPath="$PROJECT_DIR$/movies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/.roadhogrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/.roadhogrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/movies/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/DataTable/AnimTableBody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/DataTable/DataTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/DataTable/DataTable.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/DataTable/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/DropOption/DropOption.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/DropOption/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/Editor/Editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/Editor/Editor.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/Editor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/Layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/components/Layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/Layout/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/components/Layout/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/Search/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/Search/Search.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/Search/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/entry.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/entry.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/mock/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/mock/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/mock/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/mock/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/mock/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/mock/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/mock/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/models/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/models/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/models/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/models/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/models/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/models/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/models/user/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/UIElement/dataTable/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/UIElement/dropOption/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/UIElement/editor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/UIElement/iconfont/emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/UIElement/iconfont/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/UIElement/iconfont/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/UIElement/layer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/UIElement/search/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/routes/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Container.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/AirportCoordComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/BubbleGradientComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/CalendarComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/ChartAPIComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/ChartShowLoadingComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/ChartWithEventComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/DynamicChartComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/EchartsComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/GCalendarComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/GaugeComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/GraphComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/LiquidfillComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/LunarCalendarComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/MainPageComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/MapChartComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/ModuleLoadChartComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/MoonComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/SimpleChartComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/ThemeChartComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/TransparentBar3DComPonent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/TreemapComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/theme/macarons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/ECharts/theme/shine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Recharts/AreaChartComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Recharts/BarChartComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Recharts/Container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Recharts/Container.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Recharts/LineChartComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Recharts/ReChartsComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Recharts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/Recharts/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/highCharts/HighChartsComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/highCharts/HighMoreComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/highCharts/HighmapsComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/highCharts/HighstockComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/highCharts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/highCharts/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/chart/highCharts/mapdata/europe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/browser.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/comments.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/completed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/completed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/cpu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/cpu.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/numberCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/numberCard.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/quote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/quote.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/recentSales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/recentSales.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/sales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/sales.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/user-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/user.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/components/weather.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/routes/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/dashboard/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/routes/home/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/login/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/login/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/post/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/post/List.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/post/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/request/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/request/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/user/Filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/user/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/user/List.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/user/Modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/user/detail/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/user/detail/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/routes/user/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/services/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/services/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/services/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/services/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/services/menus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/services/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/services/details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/services/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/services/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/services/weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/congratulations.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/cry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/kiss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/leisurely.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/notice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/proud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/shy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/sweat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/cute/think.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/emoji/smirking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/emoji/surprised.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/emoji/tired.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/emoji/tongue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/emoji/unamused.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/emoji/vomiting.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/emoji/wink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/svg/emoji/zombie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/themes/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/themes/default.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/utils/city.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/utils/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/utils/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/utils/enums.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -11,20 +171,169 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/models/details.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="17" column="6" lean-forward="true" selection-end-line="32" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/services/details.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" lean-forward="true" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/services/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" lean-forward="true" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/utils/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="45" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/utils/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/utils/request.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="20" column="35" lean-forward="true" selection-end-line="97" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" lean-forward="true" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="28" column="11" lean-forward="true" selection-end-line="56" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/src/routes/home/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="21" lean-forward="true" selection-end-line="47" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movies/src/routes/details/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#</find>
+      <find>das</find>
+      <find>dashboard</find>
+      <find>@import</find>
+      <find>less@3.0.0-alpha.3</find>
+      <find>extensions</find>
+      <find>const path</find>
+      <find>plugins</find>
+      <find>webpack</find>
+      <find>./src/index.js</find>
+      <find>.route</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.router</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/movies" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/movies/src/router.js" />
+        <option value="$PROJECT_DIR$/movies/src/models/app.js" />
+        <option value="$PROJECT_DIR$/movies/src/components/Layout/Menu.js" />
+        <option value="$PROJECT_DIR$/movies/src/routes/home/index.js" />
+        <option value="$PROJECT_DIR$/movies/src/services/details.js" />
+        <option value="$PROJECT_DIR$/movies/src/models/details.js" />
+        <option value="$PROJECT_DIR$/movies/src/routes/details/index.js" />
+        <option value="$PROJECT_DIR$/movies/webpack.config.js" />
+        <option value="$PROJECT_DIR$/version.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="816" />
+    <option name="height" value="812" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -32,15 +341,75 @@
               <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
               <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="details" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popular_movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popular_movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/movies/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -68,30 +437,41 @@
       <option name="presentableId" value="Default" />
       <updated>1564473149257</updated>
       <workItem from="1564473150713" duration="156000" />
+      <workItem from="1564571944536" duration="11335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156000" />
+    <option name="totallyTimeSpent" value="11491000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296837" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296837" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4199438" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -99,5 +479,191 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../antd-admin/src/routes/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/routes/home/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/version.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/components/Layout/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/mock/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/models/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="11" lean-forward="true" selection-end-line="102" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/models/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="13" lean-forward="true" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/models/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="4" lean-forward="true" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/models/details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="6" lean-forward="true" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/services/details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/services/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/utils/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="45" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/utils/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" column="35" lean-forward="true" selection-end-line="97" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="11" lean-forward="true" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/routes/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" lean-forward="true" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/src/routes/details/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
